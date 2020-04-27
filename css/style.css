@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    border: 1px solid red !important;
+}
+
+h1, h2, p {
+    padding: 20px;
+}
+
+img {
+    float: right;
+    width: 150px;
+}
+
+.flex-group {
+    display: flex;
+}
+
+.header-top {
+    background-color: skyblue;   
+    color: white;
+    text-align: center;
+}
+
+.nav-left {
+    background-color: orange;
+}
+
+.aside-right {
+    background-color: purple;
+}
+
+.footer-below {
+    background-color: greenyellow;
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 760px) {
+    #page-wrap {
+        min-width: 200px;
+    }
+
+    .flex-group{
+        flex-direction: column;
+    }
+}
